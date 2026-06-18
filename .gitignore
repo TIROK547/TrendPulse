@@ -1,0 +1,67 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Python / Django
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+*.pot
+*.pyc
+
+venv/
+env/
+.env
+.env.*
+media/
+staticfiles/
+db.sqlite3
+
+# Django migrations (optional, usually keep but many ignore locally generated)
+**/migrations/__pycache__/
+
+# Next.js / Node
+node_modules/
+.next/
+out/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Go
+bin/
+vendor/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+go.sum
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Build outputs
+build/
+coverage/
